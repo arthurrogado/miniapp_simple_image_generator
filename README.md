@@ -1,6 +1,6 @@
 # Simple Image Generator MiniApp
 
-This is a simple image generator, that can give you a Telegram Lover card.
+This is a simple image generator, that can give you a Telegram Lover card. User opens miniapp > Create a ID card, then type your name and select if you want your card with a picture or not. Sends it and bot will generate a card for you.
 
 This project is built using Python, using @pyTelebramBotAPI library, that runs a Telebram Bot (server side), and Vanilla Javascript to implement a Telegram Mini App (client side).
 It also uses some google services, like Material Icons.
@@ -16,7 +16,7 @@ Usability:
 
 Learn as a developer:
 - How to integrate a Telegram Bot with a Telegram Mini App (webapp)
-- Miniframework for server and client side (see this [template](https://github.com/arthurrogado/miniframework_miniapp/): )
+- Miniframework for server and client side (see this [template](https://github.com/arthurrogado/miniapp_miniframework): )
     - Server side: python bot with pyTelegramBotAPI, as well as a simple CRUD and a miniframework (organize your code in a simple but strong way, using modules and classes, placing your code in the right place)
     - Client side: vanilla javascript, in a very simple "miniframework" to develop a SPA (Single Page Application) like app.
 
@@ -38,7 +38,7 @@ or
 or
 
 - 1.3. Use our webapp used in this project:
-    - https://drawing-mini-app-bot.netlify.app/
+    - Look at details for contest section above and use the webapp url.
 
 ### 2. Setting variables to the bot:
 - 2.1. Paste the webapp url into the file `App/Utils/Constants.py` (WEBAPP_URL variable)
