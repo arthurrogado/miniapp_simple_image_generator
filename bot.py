@@ -80,7 +80,7 @@ def receber(msg: Message):
         
     if msg.text == "/about":
         bot.send_message(userid, "About the bot")
-        msg_about = "This bot can generate a ID Card, proving that you are a Telegram Lover.\n\n"
+        msg_about = "This MiniApp bot can generate a ID Card, proving that you are a Telegram Lover.\n\n"
         msg_about += "Source code: https://github.com/arthurrogado/miniapp_simple_image_generator"
         bot.send_message(userid, msg_about)
         return
