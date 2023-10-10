@@ -8,7 +8,7 @@ def make_telegram_lover_card(text, user_image = None, basecard = "basecard.png")
 
 
     left, top, right, bottom = font.getbbox(text)
-    print(left, top, right, bottom)
+    # print(left, top, right, bottom)
     # this values are the size of the text relative to the top left corner of the image
     # left = 220: distance from left to start writing
     # top = 170: distance from top to start writing
@@ -17,7 +17,7 @@ def make_telegram_lover_card(text, user_image = None, basecard = "basecard.png")
 
     width = right - left
     height = bottom - top
-    print("Width:", width, "Height:", height)
+    # print("Width:", width, "Height:", height)
 
     # top left to start writing: 220, 170
     # top right to end writing: 280, 450

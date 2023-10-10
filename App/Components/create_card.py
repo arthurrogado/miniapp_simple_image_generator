@@ -14,7 +14,6 @@ class CreateCard(BaseComponent):
     def start(self):
         name = self.data.get('name')
         usepic = self.data.get('usepic')
-        print(name, usepic)
 
         if usepic:
             user_profile = self.bot.get_user_profile_photos(self.userid)
